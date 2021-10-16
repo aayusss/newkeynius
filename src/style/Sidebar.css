@@ -1,0 +1,35 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+.container{
+  line-height:40px;
+  background-color: rgba(164, 175, 175, 0.007);
+  width: 16pc;
+  height: 100%; 
+  border-style:groove;
+  padding: 50px 29px 29px 29px;
+  box-sizing: border-box;
+  position: fixed;
+  zoom: 90%;
+}
+.container .u_list{
+  margin-top: 2rem;
+}
+.container .u_list li{
+  list-style: none;
+}
+.container .u_list a:link{
+  text-decoration: none;
+  font-size: 13px;
+}
+.container .u_list .sidebar_anchor{
+  margin:4px 4px;
+  padding: 4px 4px;
+  color: black;
+}
+.container .u_list li .icon{
+  margin-top: 22px;
+}
+ 

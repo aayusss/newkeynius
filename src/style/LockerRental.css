@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow: hidden;
+}
+.container2 {
+  position: absolute;
+  width: 82%;
+  height: 100%;
+  left: 231px;
+}
+.container2 .locker {
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 1rem;
+}
+.container2 .locker .horiz-div .header {
+  font-weight: normal;
+  color: rgb(8, 136, 172);
+}
+.container2 .locker .horiz-div .header span {
+  font-size: 30px;
+  font-weight: bold;
+}
+.container2 .locker .btn {
+  margin-right: 150px;
+  margin-top: 15px;
+  width: 100px;
+  height: 30px;
+  background-color: rgb(64, 203, 241);
+  border-radius: 20px;
+  border-color: rgb(64, 203, 241);
+  border: none;
+  color: rgb(250, 253, 253);
+}
+.container2 .locker_list{
+  zoom:80%;
+}
+.container2 .locker .horiz-div .horiz-list li {
+  list-style: none;
+  float: left;
+  font-size: 10px;
+  color: rgb(186, 192, 192);
+}
+.container2 .locker .horiz-div .horiz-list .list1 {
+  margin-left: 24px;
+}
+.container2 .locker .horiz-div .horiz-list li:after {
+  content: '\00a0>\00a0';
+}
+.container2 .locker .horiz-div .horiz-list li:last-child:after {
+  content: '';
+}
+.container2 .main_container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.container2 .main_container .listing {
+  font-size: 70%;
+  width: 16em;
+  height: 100%;
+  border: 2px solid whitesmoke;
+}
+
+.container2 .main_container .listing ol .list a {
+  text-decoration: none;
+}
+.container2 .main_container .listing ol .list {
+  line-height: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.container2 .main_container .listing ol .list2 {
+  margin-right: 26px;
+}
+.container2 .main_container .listing ol .list3 {
+  margin-right: 16px;
+}
+.container2 .main_container .listing ol .list a {
+  color: rgb(61, 60, 60);
+  font-weight: 400;
+}
+.container2 .main_container .listing ol a:hover {
+  color: rgb(70, 186, 240);
+}
+.container2 .main_container .listing ol a:active {
+  color: rgb(63, 182, 236);
+}
+.container2 .main_container .locker_list ol{
+  margin: 1rem 0 2rem 2rem;
+  padding: 0rem 1rem 1rem 1rem;
+}
+.container2 .main_container .locker_list ol .center{
+  line-height: 4rem;
+}
+.container2 .main_container .locker_list ol .center .list2{
+  float:left;
+  font-size: 10px;
+  margin-right: 10em;
+}
+.container2 .main_container .locker_list .header2{
+  font-weight: normal;
+  margin: 2rem 0 0 2.2rem;
+}
+.container2 .main_container .locker_list ol .center .check{
+margin:0 1em 0 1em;
+}
+.container2 .main_container .locker_list ol .center .days{
+  width: 5rem;
+  height: 2rem;
+  padding: 2px 2px 2px 2px;
+  border-radius: 50px;
+  outline: none;
+  margin-left: 2rem;
+  border-color: rgb(177, 178, 180);
+}
+.container2 .main_container .locker_list ol .center .minute{
+  width: 12.7rem;
+  height: 2rem;
+  padding: 2px 2px 2px 2px;
+  border-radius: 50px;
+  outline: none;
+  margin-left: 13rem;
+  border-color: rgb(177, 178, 180);
+}
+.container2 .main_container .locker_list ol .center .minute_1{
+margin-left: 16.6rem;
+}
+.container2 .main_container .locker_list ol .center .minute_2{
+  margin-left: 9.1rem;
+}
+.container2 .main_container .locker_list ol .center .select{
+  width: 13rem;
+  height: 2.3rem;
+  padding: 2px 2px 2px 2px;
+  border-radius: 1rem;
+  outline: none;
+  border-color: rgb(177, 178, 180);
+  margin-left: 2rem;
+}
+
+.container2 .main_container .locker_list ol .center .label_days{
+ margin-left: 8.2rem;
+}
+.container2 .main_container .locker_list ol .center .label_select{
+  margin-left: 11.8rem;
+}
+.container2 .main_container .locker_list ol .center .label_1{
+  margin-left: 6.4rem;
+}
+.container2 .main_container .locker_list ol .center .radio{
+  margin-left: 1.5rem;
+}
+.container2 .main_container .locker_list ol .center .radio_1{
+  margin-left: 23.75rem;
+}
+.container2 .main_container .locker_list ol .center .label .input_radio{
+  margin:0 5px 0 0;
+}
+.container2 .main_container .locker_list ol .center .one{
+  margin-left: 2rem;
+  width: 13rem;
+  height: 2.5rem;
+}
+.container2 .main_container .locker_list ol .center .two{
+  margin-left: 19rem;
+   width: 13rem;
+  height: 2.5rem;
+}
+.container2 .main_container .locker_list ol .center .old_new{
+  margin-left: 15.5rem;
+}
+.container2 .main_container .locker_list ol .center .check[type='checkbox'] {
+position: relative;
+width: 20px;
+height: 10px;
+-webkit-appearance: none;
+background: #c6c6c6;
+outline: none;
+border-radius: 20px;
+box-shadow: inset 0 0 5px rgba(0,0,0,.2);
+transition: .5s;
+}
+.container2 .main_container .locker_list ol .center .check:checked[type="checkbox"]{
+  background: #03a9f4;
+}
+.container2 .main_container .locker_list ol .center .check[type="checkbox"]:before{
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 20px;
+  top:0;
+  right: 0;
+  background: #fff;
+  transform:scale(1.1);
+  box-shadow:0 2px 5px rgba(0,0,0,.2) ;
+  transition:.5s;
+}
+.container2 .main_container .locker_list ol .center .check:checked[type="checkbox"]:before{
+  right: 10px;
+} 
+
+
+
+
+
+
+
+
+
